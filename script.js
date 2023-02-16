@@ -7,7 +7,6 @@ let level = 0;
 
 let game_is_on = false;
 
-let num_of_games = 0;
 
 /*
 function process_click()
