@@ -34,12 +34,14 @@ function play_game()
 function hide_restart()
 {
     $("#game-over").hide();
+    $("body").removeClass("game-over");
 }
 
 // shows the hidden game over h3
 function show_restart()
 {
     $("#game-over").show();
+    $("body").addClass("game-over");
 }
 
 // When the player loses, there are many variables that need to be reset in order for the game to run properly,
